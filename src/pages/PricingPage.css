@@ -1,0 +1,502 @@
+.pricing-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #F8F9FA;
+  padding: 80px 20px 60px;
+}
+
+.pricing-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Header Section */
+.pricing-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.pricing-title {
+  font-size: 3.5rem;
+  color: #1A2A6C;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.pricing-subtitle {
+  font-size: 1.3rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Overview Section */
+.pricing-overview {
+  margin-bottom: 80px;
+}
+
+.overview-card {
+  background: white;
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.overview-title {
+  font-size: 2rem;
+  color: #1A2A6C;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.overview-text {
+  font-size: 1.15rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+.overview-text strong {
+  color: #00BFA6;
+  font-weight: 600;
+}
+
+/* Pricing Tiers */
+.pricing-tiers {
+  margin-bottom: 80px;
+}
+
+.tiers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  align-items: stretch;
+}
+
+.tier-card {
+  background: white;
+  border-radius: 16px;
+  padding: 40px 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 3px solid transparent;
+}
+
+.tier-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(0, 191, 166, 0.2);
+}
+
+.tier-card.highlighted {
+  border-color: #00BFA6;
+  box-shadow: 0 8px 30px rgba(0, 191, 166, 0.25);
+  transform: scale(1.05);
+}
+
+.tier-card.highlighted:hover {
+  transform: scale(1.05) translateY(-8px);
+}
+
+.tier-badge {
+  position: absolute;
+  top: -15px;
+  right: 30px;
+  background: linear-gradient(135deg, #00BFA6 0%, #009688 100%);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 12px rgba(0, 191, 166, 0.3);
+}
+
+.tier-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.tier-name {
+  font-size: 1.8rem;
+  color: #1A2A6C;
+  margin-bottom: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.tier-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 25px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.tier-pricing {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px 0;
+  border-top: 2px solid #F0F0F0;
+  border-bottom: 2px solid #F0F0F0;
+}
+
+.tier-price {
+  font-size: 2.2rem;
+  color: #1A2A6C;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.tier-price-subtext {
+  font-size: 1rem;
+  color: #00BFA6;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.tier-duration {
+  font-size: 0.95rem;
+  color: #999;
+  margin-top: 5px;
+}
+
+.tier-ideal {
+  background: #F8F9FA;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  font-size: 0.95rem;
+  color: #555;
+  text-align: center;
+}
+
+.tier-ideal strong {
+  color: #1A2A6C;
+}
+
+.tier-features {
+  flex-grow: 1;
+  margin-bottom: 30px;
+}
+
+.features-title {
+  font-size: 1.1rem;
+  color: #1A2A6C;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-item {
+  padding: 10px 0;
+  font-size: 0.95rem;
+  color: #555;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  line-height: 1.5;
+}
+
+.feature-check {
+  color: #00BFA6;
+  font-weight: 700;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.tier-cta {
+  width: 100%;
+  padding: 16px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tier-cta.primary {
+  background: #00BFA6;
+  color: white;
+}
+
+.tier-cta.primary:hover {
+  background: #009688;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 191, 166, 0.3);
+}
+
+.tier-cta.secondary {
+  background: transparent;
+  color: #1A2A6C;
+  border: 2px solid #1A2A6C;
+}
+
+.tier-cta.secondary:hover {
+  background: #1A2A6C;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Benefits Section */
+.pricing-benefits {
+  margin-bottom: 80px;
+}
+
+.benefits-title {
+  font-size: 2.5rem;
+  color: #1A2A6C;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.benefit-box {
+  background: white;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.benefit-box:hover {
+  transform: translateY(-5px);
+}
+
+.benefit-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.benefit-box h3 {
+  font-size: 1.3rem;
+  color: #1A2A6C;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.benefit-box p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Testimonials */
+.pricing-testimonials {
+  margin-bottom: 80px;
+}
+
+.testimonials-title {
+  font-size: 2.5rem;
+  color: #1A2A6C;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.testimonial-box {
+  background: white;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.testimonial-avatar {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.testimonial-quote {
+  font-size: 1.15rem;
+  color: #333;
+  font-style: italic;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.testimonial-author {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.testimonial-author strong {
+  color: #1A2A6C;
+  font-size: 1rem;
+}
+
+.testimonial-author span {
+  color: #00BFA6;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+/* CTA Section */
+.pricing-cta {
+  margin-bottom: 80px;
+}
+
+.cta-box {
+  background: linear-gradient(135deg, #1A2A6C 0%, #00BFA6 100%);
+  color: white;
+  padding: 60px 40px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.cta-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.cta-text {
+  font-size: 1.2rem;
+  margin-bottom: 35px;
+  opacity: 0.95;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.7;
+}
+
+.cta-button {
+  background: white;
+  color: #1A2A6C;
+  border: none;
+  padding: 18px 45px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.cta-note {
+  margin-top: 25px;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* FAQ Section */
+.pricing-faq {
+  margin-bottom: 60px;
+}
+
+.faq-title {
+  font-size: 2.5rem;
+  color: #1A2A6C;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+}
+
+.faq-question {
+  font-size: 1.2rem;
+  color: #1A2A6C;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.faq-answer {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.7;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .tiers-grid {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .tier-card.highlighted {
+    transform: scale(1);
+  }
+
+  .tier-card.highlighted:hover {
+    transform: translateY(-8px);
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing-title {
+    font-size: 2.5rem;
+  }
+
+  .pricing-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .overview-card {
+    padding: 30px 25px;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-title {
+    font-size: 2rem;
+  }
+}

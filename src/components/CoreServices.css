@@ -1,0 +1,134 @@
+.core-services {
+  width: 100%;
+  padding: 80px 20px;
+  background: #F8F9FA;
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.services-title {
+  font-size: 2.8rem;
+  color: #1A2A6C;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.services-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.service-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 30px rgba(0, 191, 166, 0.2);
+}
+
+.service-icon {
+  font-size: 4rem;
+  margin-bottom: 25px;
+  filter: grayscale(0);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-icon {
+  transform: scale(1.1);
+}
+
+.service-title {
+  font-size: 1.3rem;
+  color: #1A2A6C;
+  margin-bottom: 15px;
+  font-weight: 600;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.service-description {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  flex-grow: 1;
+}
+
+.service-link {
+  color: #00BFA6;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.service-link:hover {
+  color: #009688;
+}
+
+.services-footer {
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 40px;
+  border-top: 2px solid #E0E0E0;
+}
+
+.services-footer-text {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.services-pricing-link {
+  display: inline-block;
+  color: #00BFA6;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 12px 30px;
+  border: 2px solid #00BFA6;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.services-pricing-link:hover {
+  background: #00BFA6;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 191, 166, 0.3);
+}
+
+@media (max-width: 768px) {
+  .services-title {
+    font-size: 2rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}

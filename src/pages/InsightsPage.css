@@ -1,0 +1,144 @@
+.insights-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #F8F9FA;
+  padding: 80px 20px 60px;
+}
+
+.insights-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.insights-header {
+  font-size: 3rem;
+  color: #1A2A6C;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.insights-intro {
+  font-size: 1.25rem;
+  color: #555;
+  margin-bottom: 40px;
+  max-width: 800px;
+}
+
+.category-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+.filter-button {
+  padding: 12px 24px;
+  background: white;
+  border: 2px solid #E0E0E0;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-button:hover {
+  border-color: #00BFA6;
+  color: #00BFA6;
+}
+
+.filter-button.active {
+  background: #00BFA6;
+  border-color: #00BFA6;
+  color: white;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+.article-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.article-image {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+
+.article-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.article-card:hover .article-image img {
+  transform: scale(1.05);
+}
+
+.article-content {
+  padding: 25px;
+}
+
+.article-date {
+  font-size: 0.9rem;
+  color: #00BFA6;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.article-title {
+  font-size: 1.4rem;
+  color: #1A2A6C;
+  margin: 12px 0 15px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.article-excerpt {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.read-more {
+  color: #00BFA6;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.read-more:hover {
+  color: #009688;
+}
+
+@media (max-width: 768px) {
+  .insights-header {
+    font-size: 2rem;
+  }
+
+  .articles-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .category-filters {
+    justify-content: center;
+  }
+}
