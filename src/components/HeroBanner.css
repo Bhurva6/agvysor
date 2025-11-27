@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #1A2A6C 0%, #00BFA6 100%);
+  background: linear-gradient(135deg, #002D6A 0%, #002D6A 100%);
   overflow: hidden;
 }
 
@@ -63,7 +63,7 @@
 
 .hero-cta {
   background: white;
-  color: #1A2A6C;
+  color: white;
   border: none;
   padding: 18px 45px;
   font-size: 1.2rem;
@@ -77,7 +77,7 @@
 .hero-cta:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
-  background: #00BFA6;
+  background: #002D6A;
   color: white;
 }
 

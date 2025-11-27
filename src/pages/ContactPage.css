@@ -12,7 +12,7 @@
 
 .contact-header {
   font-size: 3rem;
-  color: #1A2A6C;
+  color: white;
   margin-bottom: 20px;
   font-weight: 700;
   text-align: center;
@@ -20,7 +20,7 @@
 
 .contact-intro {
   font-size: 1.25rem;
-  color: #555;
+  color: white;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -52,7 +52,7 @@
 .form-group label {
   font-size: 1rem;
   font-weight: 600;
-  color: #1A2A6C;
+  color: white;
   margin-bottom: 8px;
 }
 
@@ -71,7 +71,7 @@
 .form-group select:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #00BFA6;
+  border-color: white;
 }
 
 .form-group textarea {
@@ -80,7 +80,7 @@
 }
 
 .submit-button {
-  background: #00BFA6;
+  background: #002D6A;
   color: white;
   border: none;
   padding: 16px 35px;
@@ -113,14 +113,14 @@
 
 .info-box h3 {
   font-size: 1.2rem;
-  color: #1A2A6C;
+  color: white;
   margin-bottom: 12px;
   font-weight: 600;
 }
 
 .info-box p {
   font-size: 1rem;
-  color: #555;
+  color: white;
   line-height: 1.6;
   margin: 0;
 }

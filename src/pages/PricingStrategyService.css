@@ -25,7 +25,7 @@
 
 .strategy-header {
   font-size: 3.5rem;
-  color: #1A2A6C;
+  color: white;
   margin-bottom: 30px;
   font-weight: 700;
   line-height: 1.2;
@@ -33,7 +33,7 @@
 
 .strategy-intro {
   font-size: 1.2rem;
-  color: #555;
+  color: white;
   line-height: 1.8;
   margin-bottom: 0;
 }
@@ -66,7 +66,7 @@
 .tier-label {
   font-size: 1rem;
   font-weight: 600;
-  color: #666;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -74,13 +74,13 @@
 .tier-price {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #1A2A6C;
+  color: white;
   margin-bottom: 10px;
 }
 
 .tier-bar {
   width: 80px;
-  background: linear-gradient(to top, #00BFA6, #1A2A6C);
+  background: linear-gradient(to top, #002D6A, #002D6A);
   border-radius: 8px 8px 0 0;
   transition: all 0.3s ease;
 }
@@ -95,7 +95,7 @@
   align-items: center;
   gap: 15px;
   padding: 20px 30px;
-  background: linear-gradient(135deg, #1A2A6C, #00BFA6);
+  background: linear-gradient(135deg, #002D6A, #002D6A);
   border-radius: 12px;
   color: white;
 }
@@ -122,7 +122,7 @@
 
 .section-title {
   font-size: 2.8rem;
-  color: #1A2A6C;
+  color: white;
   text-align: center;
   margin-bottom: 50px;
   font-weight: 700;
@@ -146,7 +146,7 @@
 .benefit-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 30px rgba(0, 191, 166, 0.15);
-  border-left-color: #00BFA6;
+  border-left-color: white;
 }
 
 .benefit-icon {
@@ -156,14 +156,14 @@
 
 .benefit-title {
   font-size: 1.3rem;
-  color: #1A2A6C;
+  color: white;
   margin-bottom: 12px;
   font-weight: 600;
 }
 
 .benefit-description {
   font-size: 1rem;
-  color: #666;
+  color: white;
   line-height: 1.7;
 }
 
@@ -178,7 +178,7 @@
 
 .matters-text {
   font-size: 1.2rem;
-  color: #555;
+  color: white;
   line-height: 1.8;
   text-align: center;
   max-width: 900px;
@@ -186,7 +186,7 @@
 }
 
 .matters-text strong {
-  color: #00BFA6;
+  color: white;
   font-weight: 700;
 }
 
@@ -209,13 +209,13 @@
 .stat-number {
   font-size: 3rem;
   font-weight: 700;
-  color: #00BFA6;
+  color: white;
   margin-bottom: 10px;
 }
 
 .stat-label {
   font-size: 1rem;
-  color: #666;
+  color: white;
   font-weight: 500;
 }
 
@@ -225,7 +225,7 @@
 }
 
 .case-study-content {
-  background: linear-gradient(135deg, #1A2A6C 0%, #00BFA6 100%);
+  background: linear-gradient(135deg, #002D6A 0%, #002D6A 100%);
   color: white;
   padding: 60px 50px;
   border-radius: 16px;
@@ -259,7 +259,7 @@
 
 .case-study-quote strong {
   font-weight: 700;
-  color: #FFD700;
+  color: white;
 }
 
 .case-study-details {
@@ -330,7 +330,7 @@
 .step-number {
   width: 50px;
   height: 50px;
-  background: linear-gradient(135deg, #1A2A6C, #00BFA6);
+  background: linear-gradient(135deg, #002D6A, #002D6A);
   color: white;
   border-radius: 50%;
   display: flex;
@@ -343,14 +343,14 @@
 
 .step-title {
   font-size: 1.3rem;
-  color: #1A2A6C;
+  color: white;
   margin-bottom: 12px;
   font-weight: 600;
 }
 
 .step-description {
   font-size: 1rem;
-  color: #666;
+  color: white;
   line-height: 1.6;
 }
 
@@ -381,7 +381,7 @@
 
 .faq-question {
   font-size: 1.2rem;
-  color: #1A2A6C;
+  color: white;
   margin-bottom: 15px;
   font-weight: 600;
   display: flex;
@@ -395,7 +395,7 @@
 
 .faq-answer {
   font-size: 1rem;
-  color: #666;
+  color: white;
   line-height: 1.7;
   padding-left: 38px;
 }
@@ -406,7 +406,7 @@
 }
 
 .cta-container {
-  background: linear-gradient(135deg, #1A2A6C 0%, #00BFA6 100%);
+  background: linear-gradient(135deg, #002D6A 0%, #002D6A 100%);
   color: white;
   padding: 70px 50px;
   border-radius: 16px;
@@ -432,7 +432,7 @@
 
 .cta-button {
   background: white;
-  color: #1A2A6C;
+  color: white;
   border: none;
   padding: 18px 45px;
   font-size: 1.2rem;

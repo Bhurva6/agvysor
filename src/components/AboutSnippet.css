@@ -19,21 +19,21 @@
 
 .snippet-title {
   font-size: 2.5rem;
-  color: #1A2A6C;
+  color: white;
   margin-bottom: 25px;
   font-weight: 700;
 }
 
 .snippet-text {
   font-size: 1.15rem;
-  color: #555;
+  color: white;
   line-height: 1.8;
   margin-bottom: 30px;
 }
 
 .snippet-link {
   display: inline-block;
-  color: #00BFA6;
+  color: white;
   text-decoration: none;
   font-weight: 600;
   font-size: 1.1rem;

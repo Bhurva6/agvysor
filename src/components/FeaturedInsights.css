@@ -11,7 +11,7 @@
 
 .insights-title {
   font-size: 2.8rem;
-  color: #1A2A6C;
+  color: white;
   text-align: center;
   margin-bottom: 15px;
   font-weight: 700;
@@ -19,7 +19,7 @@
 
 .insights-subtitle {
   font-size: 1.2rem;
-  color: #666;
+  color: white;
   text-align: center;
   margin-bottom: 60px;
 }
@@ -67,7 +67,7 @@
 
 .insight-title {
   font-size: 1.4rem;
-  color: #1A2A6C;
+  color: white;
   margin-bottom: 15px;
   font-weight: 600;
   line-height: 1.4;
@@ -75,13 +75,13 @@
 
 .insight-excerpt {
   font-size: 1rem;
-  color: #666;
+  color: white;
   line-height: 1.7;
   margin-bottom: 20px;
 }
 
 .insight-link {
-  color: #00BFA6;
+  color: white;
   text-decoration: none;
   font-weight: 600;
   font-size: 1rem;
@@ -100,8 +100,8 @@
 .view-all-button {
   display: inline-block;
   background: transparent;
-  color: #1A2A6C;
-  border: 2px solid #1A2A6C;
+  color: white;
+  border: 2px solid #002D6A;
   padding: 15px 40px;
   font-size: 1.1rem;
   font-weight: 600;
@@ -111,7 +111,7 @@
 }
 
 .view-all-button:hover {
-  background: #1A2A6C;
+  background: #002D6A;
   color: white;
   transform: translateY(-2px);
   box-shadow: 0 4px 15px rgba(26, 42, 108, 0.3);

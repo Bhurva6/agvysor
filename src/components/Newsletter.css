@@ -1,7 +1,7 @@
 .newsletter {
   width: 100%;
   padding: 80px 20px;
-  background: linear-gradient(135deg, #1A2A6C 0%, #00BFA6 100%);
+  background: linear-gradient(135deg, #002D6A 0%, #002D6A 100%);
 }
 
 .newsletter-container {
@@ -51,7 +51,7 @@
 .newsletter-button {
   padding: 16px 35px;
   background: white;
-  color: #1A2A6C;
+  color: white;
   border: none;
   border-radius: 8px;
   font-size: 1rem;

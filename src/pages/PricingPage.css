@@ -18,14 +18,14 @@
 
 .pricing-title {
   font-size: 3.5rem;
-  color: #1A2A6C;
+  color: white;
   margin-bottom: 20px;
   font-weight: 700;
 }
 
 .pricing-subtitle {
   font-size: 1.3rem;
-  color: #666;
+  color: white;
   max-width: 800px;
   margin: 0 auto;
   line-height: 1.6;
@@ -47,19 +47,19 @@
 
 .overview-title {
   font-size: 2rem;
-  color: #1A2A6C;
+  color: white;
   margin-bottom: 20px;
   font-weight: 600;
 }
 
 .overview-text {
   font-size: 1.15rem;
-  color: #555;
+  color: white;
   line-height: 1.8;
 }
 
 .overview-text strong {
-  color: #00BFA6;
+  color: white;
   font-weight: 600;
 }
 
@@ -93,7 +93,7 @@
 }
 
 .tier-card.highlighted {
-  border-color: #00BFA6;
+  border-color: white;
   box-shadow: 0 8px 30px rgba(0, 191, 166, 0.25);
   transform: scale(1.05);
 }
@@ -106,7 +106,7 @@
   position: absolute;
   top: -15px;
   right: 30px;
-  background: linear-gradient(135deg, #00BFA6 0%, #009688 100%);
+  background: linear-gradient(135deg, #002D6A 0%, #009688 100%);
   color: white;
   padding: 8px 20px;
   border-radius: 20px;
@@ -125,7 +125,7 @@
 
 .tier-name {
   font-size: 1.8rem;
-  color: #1A2A6C;
+  color: white;
   margin-bottom: 12px;
   font-weight: 700;
   text-align: center;
@@ -133,7 +133,7 @@
 
 .tier-description {
   font-size: 1rem;
-  color: #666;
+  color: white;
   margin-bottom: 25px;
   text-align: center;
   line-height: 1.5;
@@ -149,14 +149,14 @@
 
 .tier-price {
   font-size: 2.2rem;
-  color: #1A2A6C;
+  color: white;
   font-weight: 700;
   margin-bottom: 5px;
 }
 
 .tier-price-subtext {
   font-size: 1rem;
-  color: #00BFA6;
+  color: white;
   font-weight: 600;
   margin-top: 5px;
 }
@@ -173,12 +173,12 @@
   border-radius: 8px;
   margin-bottom: 25px;
   font-size: 0.95rem;
-  color: #555;
+  color: white;
   text-align: center;
 }
 
 .tier-ideal strong {
-  color: #1A2A6C;
+  color: white;
 }
 
 .tier-features {
@@ -188,7 +188,7 @@
 
 .features-title {
   font-size: 1.1rem;
-  color: #1A2A6C;
+  color: white;
   margin-bottom: 15px;
   font-weight: 600;
 }
@@ -202,7 +202,7 @@
 .feature-item {
   padding: 10px 0;
   font-size: 0.95rem;
-  color: #555;
+  color: white;
   display: flex;
   align-items: flex-start;
   gap: 10px;
@@ -210,7 +210,7 @@
 }
 
 .feature-check {
-  color: #00BFA6;
+  color: white;
   font-weight: 700;
   font-size: 1.1rem;
   flex-shrink: 0;
@@ -228,7 +228,7 @@
 }
 
 .tier-cta.primary {
-  background: #00BFA6;
+  background: #002D6A;
   color: white;
 }
 
@@ -240,12 +240,12 @@
 
 .tier-cta.secondary {
   background: transparent;
-  color: #1A2A6C;
-  border: 2px solid #1A2A6C;
+  color: white;
+  border: 2px solid #002D6A;
 }
 
 .tier-cta.secondary:hover {
-  background: #1A2A6C;
+  background: #002D6A;
   color: white;
   transform: translateY(-2px);
 }
@@ -257,7 +257,7 @@
 
 .benefits-title {
   font-size: 2.5rem;
-  color: #1A2A6C;
+  color: white;
   text-align: center;
   margin-bottom: 50px;
   font-weight: 700;
@@ -289,14 +289,14 @@
 
 .benefit-box h3 {
   font-size: 1.3rem;
-  color: #1A2A6C;
+  color: white;
   margin-bottom: 12px;
   font-weight: 600;
 }
 
 .benefit-box p {
   font-size: 1rem;
-  color: #666;
+  color: white;
   line-height: 1.6;
 }
 
@@ -307,7 +307,7 @@
 
 .testimonials-title {
   font-size: 2.5rem;
-  color: #1A2A6C;
+  color: white;
   text-align: center;
   margin-bottom: 50px;
   font-weight: 700;
@@ -349,12 +349,12 @@
 }
 
 .testimonial-author strong {
-  color: #1A2A6C;
+  color: white;
   font-size: 1rem;
 }
 
 .testimonial-author span {
-  color: #00BFA6;
+  color: white;
   font-size: 0.95rem;
   font-weight: 500;
 }
@@ -365,7 +365,7 @@
 }
 
 .cta-box {
-  background: linear-gradient(135deg, #1A2A6C 0%, #00BFA6 100%);
+  background: linear-gradient(135deg, #002D6A 0%, #002D6A 100%);
   color: white;
   padding: 60px 40px;
   border-radius: 16px;
@@ -391,7 +391,7 @@
 
 .cta-button {
   background: white;
-  color: #1A2A6C;
+  color: white;
   border: none;
   padding: 18px 45px;
   font-size: 1.2rem;
@@ -420,7 +420,7 @@
 
 .faq-title {
   font-size: 2.5rem;
-  color: #1A2A6C;
+  color: white;
   text-align: center;
   margin-bottom: 50px;
   font-weight: 700;
@@ -443,14 +443,14 @@
 
 .faq-question {
   font-size: 1.2rem;
-  color: #1A2A6C;
+  color: white;
   margin-bottom: 12px;
   font-weight: 600;
 }
 
 .faq-answer {
   font-size: 1rem;
-  color: #666;
+  color: white;
   line-height: 1.7;
 }
 

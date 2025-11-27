@@ -11,7 +11,7 @@
 
 .services-title {
   font-size: 2.8rem;
-  color: #1A2A6C;
+  color: white;
   text-align: center;
   margin-bottom: 15px;
   font-weight: 700;
@@ -19,7 +19,7 @@
 
 .services-subtitle {
   font-size: 1.2rem;
-  color: #666;
+  color: white;
   text-align: center;
   margin-bottom: 60px;
 }
@@ -60,7 +60,7 @@
 
 .service-title {
   font-size: 1.3rem;
-  color: #1A2A6C;
+  color: white;
   margin-bottom: 15px;
   font-weight: 600;
   min-height: 60px;
@@ -70,14 +70,14 @@
 
 .service-description {
   font-size: 1rem;
-  color: #666;
+  color: white;
   line-height: 1.6;
   margin-bottom: 25px;
   flex-grow: 1;
 }
 
 .service-link {
-  color: #00BFA6;
+  color: white;
   text-decoration: none;
   font-weight: 600;
   font-size: 1rem;
@@ -100,24 +100,24 @@
 
 .services-footer-text {
   font-size: 1.1rem;
-  color: #666;
+  color: white;
   margin-bottom: 20px;
 }
 
 .services-pricing-link {
   display: inline-block;
-  color: #00BFA6;
+  color: white;
   text-decoration: none;
   font-weight: 600;
   font-size: 1.1rem;
   padding: 12px 30px;
-  border: 2px solid #00BFA6;
+  border: 2px solid #002D6A;
   border-radius: 8px;
   transition: all 0.3s ease;
 }
 
 .services-pricing-link:hover {
-  background: #00BFA6;
+  background: #002D6A;
   color: white;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 191, 166, 0.3);

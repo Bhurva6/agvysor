@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  background: #1A2A6C;
+  background: #002D6A;
   color: white;
   padding: 60px 20px 30px;
 }
@@ -26,7 +26,7 @@
   font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 15px;
-  background: linear-gradient(135deg, #FFFFFF 0%, #00BFA6 100%);
+  background: linear-gradient(135deg, #FFFFFF 0%, #002D6A 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -59,7 +59,7 @@
 }
 
 .social-link:hover {
-  background: #00BFA6;
+  background: #002D6A;
   transform: translateY(-3px);
 }
 
@@ -67,7 +67,7 @@
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #00BFA6;
+  color: white;
 }
 
 .footer-links {
@@ -87,7 +87,7 @@
 
 .footer-links a:hover {
   opacity: 1;
-  color: #00BFA6;
+  color: white;
   padding-left: 5px;
 }
 
@@ -132,7 +132,7 @@
 
 .footer-legal a:hover {
   opacity: 1;
-  color: #00BFA6;
+  color: white;
 }
 
 .separator {

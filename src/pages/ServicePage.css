@@ -12,7 +12,7 @@
 
 .service-header {
   font-size: 3rem;
-  color: #1A2A6C;
+  color: white;
   margin-bottom: 30px;
   font-weight: 700;
 }
@@ -28,7 +28,7 @@
 .key-benefits h2,
 .case-study h2 {
   font-size: 2rem;
-  color: #1A2A6C;
+  color: white;
   margin-bottom: 30px;
   font-weight: 600;
 }
@@ -60,7 +60,7 @@
 
 .benefit-card p {
   font-size: 1.1rem;
-  color: #555;
+  color: white;
   line-height: 1.6;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .case-study-box {
-  background: linear-gradient(135deg, #1A2A6C 0%, #00BFA6 100%);
+  background: linear-gradient(135deg, #002D6A 0%, #002D6A 100%);
   color: white;
   padding: 40px;
   border-radius: 12px;
@@ -109,7 +109,7 @@
 }
 
 .cta-button {
-  background: #00BFA6;
+  background: #002D6A;
   color: white;
   border: none;
   padding: 18px 40px;
